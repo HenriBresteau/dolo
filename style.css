@@ -41,6 +41,12 @@ ul {
     transition: all .7s;
     z-index: 9;
 }
+.header.sticky {
+    width: 100%;
+    position: fixed;
+    background-color: #212529;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
+}
 .header .logo{
     margin: 0;
     padding: 16px 0;
@@ -159,7 +165,7 @@ header .logo a img {
     align-items: center;
     margin-bottom: 12px;
 }
-header .sidemenu footer .social a{
+.header .sidemenu footer .social a{
     display: flex;
     align-items: center;
     justify-content: center;
