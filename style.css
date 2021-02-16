@@ -45,7 +45,23 @@ a:hover {
 ul {
   margin: 0;
 }
-
+/* scrollbar */
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    width: 10px;
+    background: #212529;
+    border-left: 0 solid white;
+    border-right: 0 solid white;
+}
+::-webkit-scrollbar-thumb{
+    width: 0;
+    background: #3bb78f;
+    height: 35%;
+    transition: .5s ease;
+    cursor: pointer;
+}
 /* HEADER */
 .header {
   position: relative;
