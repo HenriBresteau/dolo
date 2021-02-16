@@ -52,6 +52,14 @@ ul {
   transition: all 0.7s;
   z-index: 9;
 }
+.header .wrap {
+    width: 1140px;
+    transition: all .7s;
+    margin: auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
 .header.sticky {
   width: 100%;
   position: fixed;
