@@ -65,6 +65,7 @@ ul {
   position: fixed;
   background-color: #212529;
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
+  top: 0;
 }
 .header .logo {
   margin: 0;
@@ -216,4 +217,59 @@ header .logo a img {
   .header .menu {
     display: none;
   }
+}
+
+/* HOME */
+.home {
+    margin-top: 100px;
+}
+.hero-text {
+    font-family: "Poppins", sans-serif;
+}
+.title{
+    background-color: #0bceaf;
+    font-size: 1rem;
+    line-height: 24px;
+    padding: 10px 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+}
+.name {
+    font-size: 80px;
+    letter-spacing: -1px;
+}
+.designation {
+    font-size: 30px;
+}
+.email{
+    margin-top: 40px im !important;
+    font-family: "Poppins", sans-serif;
+}
+.social-icons li {
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 40px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.hero-img {
+    margin-left: 140px;
+    margin-top: -40px;
+}
+.hero-img img{
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+    border:20px solid rgba(0, 0, 0, 0.17);
+    border-radius: 50%;
+}
+.img-border {
+    height: 400px;
+    width: 400px;
+    border:20px solid rgba(0, 0, 0, 0.7);
+    margin: 0 auto;
+    border-radius: 50%;
 }
