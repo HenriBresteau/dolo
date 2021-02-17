@@ -712,3 +712,50 @@ figure:hover figcaption {
   transition: 0.6s;
   opacity: 1;
 }
+
+/* section PRICING */
+.dark-bg {
+  background-color: #202026;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 20px 30px;
+}
+.princing {
+  padding: 30px 0;
+  text-align: center;
+  transition: 0.3s;
+  margin-bottom: 30px;
+  border: 4px;
+}
+.princing h3 {
+  font-family: "Poppins", sans-serif;
+}
+.princing:hover {
+  transform: 0.3s;
+}
+.princing .fa {
+  font-size: 60px;
+  line-height: 36px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  color: #7af8e4;
+}
+.princing h4 {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.princing ul {
+  margin: 30px 0;
+}
+.princing .btn {
+  transition: 0.3s;
+  background: transparent;
+  padding: 10px 40px;
+  border-radius: 50px;
+  border: 2px solid #0bceaf;
+  color: #0bceaf;
+}
+.princing .btn:hover {
+  color: white;
+}
