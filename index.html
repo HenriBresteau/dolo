@@ -468,9 +468,11 @@
             </div>
         </div>
     </section>
+
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="circle-progress.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
     <script>
         $(document).ready(function () {
             $(".sidemenu-toggler").click(function () {
@@ -488,8 +490,8 @@
                 }
             });
             $(window).on("load", function () {
-                var $container = $('.protfolio-container');
-                $container.isotope({
+                var container = $('.portfolio-container');
+                container.isotope({
                     filter: '*',
                     animationOptions: {
                         queue: true
@@ -498,16 +500,16 @@
                 $('.portfolio-nav li').click(function () {
                     $('.portfolio-nav .current').removeClass('current');
                     $(this).addClass('current');
-                    var selector = $(this).attr("data-filter");
-                    $container.isotope({
+                    var selector = $(this).attr('data-filter');
+                    container.isotope({
                         filter: selector,
                         animationOptions: {
-                            queue: true
+                            queue: false
                         }
                     });
-                    return false
+                    return false;
                 });
-                $('.portfolio-item').mixItUp();
+
             });
         });
     </script>
