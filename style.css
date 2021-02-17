@@ -378,6 +378,36 @@ header .logo a img {
 }
 .mh-progress {
   margin-bottom: 10px;
-  font-weight: 900;
+  font: 900 1.14285/1 Cinzerl, cursive;
   color: white;
 }
+.mh-progress .progressbar-text {
+  color: inherit !important;
+  font-family: "Poppins", sans-serif;
+}
+.progress.progress-line{
+  height: 10px;
+  margin-right: 60px;
+}
+.progress.progress-line .progress-text {
+  position:absolute;
+  top: 50%;
+  left: 100%;
+  width: 60px;
+  transform: translateY(-35%);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.mh-progress.mh-progress-circle{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+.mh-progress path:nth-child(1){
+  stroke: rgba(0, 0, 0, 0.7);
+}
+
+.mh-progress path:nth-child(2){
+  stroke: #0bceaf !important;
+}
+
