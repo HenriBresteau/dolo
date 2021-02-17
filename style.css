@@ -759,3 +759,32 @@ figure:hover figcaption {
 .princing .btn:hover {
   color: white;
 }
+
+/* section BLOG */
+.mh-blog h3 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.mh-blog-item {
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 30px;
+  border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 25px 22px 0 rgb(0 0 0 / 17%), 0 2px 10px rgb(0 0 0 / 12%);
+}
+.mh-blog-item:hover {
+  transition: all 0.3s;
+}
+.mh-blog-item .blog-inner {
+  padding: 0px 20px;
+  padding-bottom: 30px;
+}
+.mh-blog-item .blog-inner h2 a {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.mh-blog-item .blog-inner img {
+  margin-bottom: 30px;
+}
