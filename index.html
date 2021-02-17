@@ -470,6 +470,7 @@
     </section>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="circle-progress.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
     <script>
         $(document).ready(function () {
             $(".sidemenu-toggler").click(function () {
@@ -485,6 +486,28 @@
                 } else {
                     $(".header").removeClass("sticky");
                 }
+            });
+            $(window).on("load", function () {
+                var $container = $('.protfolio-container');
+                $container.isotope({
+                    filter: '*',
+                    animationOptions: {
+                        queue: true
+                    }
+                });
+                $('.portfolio-nav li').click(function () {
+                    $('.porfolio-nav .current').removeClass('current');
+                    $(this).addClass('current');
+                    var selector = $(this).attr("data-filter");
+                    $container.isotope({
+                        filter: selector,
+                        animationOptions: {
+                            queue: true
+                        }
+                    });
+                    return false
+                });
+                $('.portfolio-item').mixItUp();
             });
         });
     </script>
