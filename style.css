@@ -458,14 +458,107 @@ header .logo a img {
   background: #0bceaf;
   transition: 2s all;
   animation-name: animationProgress;
-  -webkit-animation-duration: 3s;
+  /* -webkit-animation-duration: 3s; */
   -webkit-animation-name: animationProgress;
   -webkit-transition: 3s all;
   font-family: "Poppins", sans-serif;
 }
 
-@keyframes animationProgress{
-  from{
+@keyframes animationProgress {
+  from {
     width: 0;
   }
+}
+
+/* Section Experience */
+.mh-experience h3 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+  margin-bottom: 60px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.mh-experience .mh-education-details .mh-education-item {
+  margin-bottom: 30px;
+  padding: 26px 30px;
+  border-radius: 4px;
+  box-shadow: 0 25px 22px 0 rgba(0, 0, 0, 0.17), 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+.mh-experience .mh-education-details .mh-education-item:last-child {
+  margin-bottom: 0;
+}
+.mh-education-item h4 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.mh-education-item .mh-eduyear {
+  margin: 10px 0;
+  color: #0bceaf;
+  font-family: "Poppins", sans-serif;
+}
+
+.mh-education-item p {
+  font-size: 14px;
+  line-height: 23px;
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.mh-education {
+  padding-right: 30px;
+}
+.mh-work {
+  padding-left: 30px;
+}
+.mh-work h3 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+  margin-bottom: 60px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.mh-work .mh-experience-details .mh-work-item {
+  margin-bottom: 30px;
+  padding: 20px 30px;
+  border-radius: 4px;
+  box-shadow: 0 25px 22px 0 rgba(0, 0, 0, 0.17), 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+.mh-work .mh-experience-details .mh-work-item:last-child {
+  margin-bottom: 0px;
+}
+.mh-work-item h4 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.mh-work .mh-experience-details .mh-work-item .mh-eduyear {
+  margin: 10px 0;
+  color: #0bceaf;
+  font-family: "Poppins", sans-serif;
+}
+.mh-work-item span {
+  font-size: 12px;
+  color: white;
+  line-height: 22px;
+  font-family: "Poppins", sans-serif;
+}
+.work-responibility li {
+  font-size: 14px;
+  line-height: 23px;
+  margin: 2px 0;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.work-responibility li .fa {
+  font-size: 10px;
+  line-height: 23px;
+  margin-right: 10px;
 }
