@@ -366,27 +366,27 @@
                             <li class="current" data-filter="*">
                                 <span>All Categories </span>
                             </li>
-                            <li class="current" data-filter=".user-interface">
+                            <li data-filter=".user-interface">
                                 <span>Web Design </span>
                             </li>
-                            <li class="current" data-filter=".branding">
+                            <li data-filter=".branding">
                                 <span>Branding </span>
                             </li>
-                            <li class="current" data-filter=".mockup">
+                            <li data-filter=".mockup">
                                 <span>Mockup</span>
                             </li>
-                            <li class="current" data-filter=".ui">
+                            <li data-filter=".ui">
                                 <span>Photography</span>
                             </li>
                         </ul>
                     </div>
                     <div class="mh-project-gallery col-sm-12" id="project-gallery">
-                        <div class="protfolio-container row">
+                        <div class="portfolio-container row">
                             <div class="grid-item col-md-4 user-interface">
                                 <figure>
                                     <img src="/assets/portfolio/g1.jpg" alt="">
                                     <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
+                                        <i class="fas fa-search"></i>
                                         <h5 class="title">Creative Design</h5>
                                         <span class="sub-title">Photography</span>
                                     </figcaption>
@@ -396,7 +396,7 @@
                                 <figure>
                                     <img src="/assets/portfolio/g2.png" alt="">
                                     <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
+                                        <i class="fas fa-search"></i>
                                         <h5 class="title">Creative Design</h5>
                                         <span class="sub-title">Photography</span>
                                     </figcaption>
@@ -406,7 +406,7 @@
                                 <figure>
                                     <img src="/assets/portfolio/g3.png" alt="">
                                     <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
+                                        <i class="fas fa-search"></i>
                                         <h5 class="title">Creative Design</h5>
                                         <span class="sub-title">Photography</span>
                                     </figcaption>
@@ -416,7 +416,7 @@
                                 <figure>
                                     <img src="/assets/portfolio/g4.png" alt="">
                                     <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
+                                        <i class="fas fa-search"></i>
                                         <h5 class="title">Creative Design</h5>
                                         <span class="sub-title">Photography</span>
                                     </figcaption>
@@ -426,7 +426,7 @@
                                 <figure>
                                     <img src="/assets/portfolio/g5.png" alt="">
                                     <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
+                                        <i class="fas fa-search"></i>
                                         <h5 class="title">Creative Design</h5>
                                         <span class="sub-title">Photography</span>
                                     </figcaption>
@@ -436,7 +436,7 @@
                                 <figure>
                                     <img src="/assets/portfolio/g6.png" alt="">
                                     <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
+                                        <i class="fas fa-search"></i>
                                         <h5 class="title">Creative Design</h5>
                                         <span class="sub-title">Photography</span>
                                     </figcaption>
@@ -446,7 +446,7 @@
                                 <figure>
                                     <img src="/assets/portfolio/g9.png" alt="">
                                     <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
+                                        <i class="fas fa-search"></i>
                                         <h5 class="title">Creative Design</h5>
                                         <span class="sub-title">Photography</span>
                                     </figcaption>
@@ -456,7 +456,7 @@
                                 <figure>
                                     <img src="/assets/portfolio/g7.jpg" alt="">
                                     <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
+                                        <i class="fas fa-search"></i>
                                         <h5 class="title">Creative Design</h5>
                                         <span class="sub-title">Photography</span>
                                     </figcaption>
@@ -496,7 +496,7 @@
                     }
                 });
                 $('.portfolio-nav li').click(function () {
-                    $('.porfolio-nav .current').removeClass('current');
+                    $('.portfolio-nav .current').removeClass('current');
                     $(this).addClass('current');
                     var selector = $(this).attr("data-filter");
                     $container.isotope({
